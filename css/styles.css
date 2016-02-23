@@ -10,14 +10,14 @@ html, body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.9);
 }
 
 .submenu, a{
-  color: white;
+  color: #FAEBD7;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Arvo';
+  font-family: 'Bad Script';
   text-decoration: none;
   text-align: center;
   padding-right: 5%;
@@ -39,7 +39,9 @@ html, body {
 }
 
 h1 {
-  font-family: 'Arvo', bold;
+  font-family: 'Bad Script', bold;
+  font-size: 3em;
+  color: #FAEBD7;
 }
 
 .bighead, h1 {
@@ -61,11 +63,126 @@ h1 {
 
 .introInfo h2 {
   margin-top: 0;
-  color: white;
+  color: #FAEBD7;
   padding-top: 5%;
+  font-family: 'Bad Script';
+  font-size: 40px;
 }
 
 .contact, img {
   width: 100px;
   height: auto;
+}
+
+.generalInfo p {
+  text-align: center;
+  color: #9BB4CE;
+  font-family: 'Josefin Sans';
+}
+
+.tagline {
+  font-size: 20px;
+}
+
+.recentWork {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/recentwork.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FAEBD7;
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  padding-left: 2%;
+}
+
+.recentWork h2 {
+  margin-top: 0;
+  margin-bottom: 1%;
+  padding-top: 7%;
+  font-family: 'Bad Script';
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.subHeader {
+  font-family: 'Bad Script';
+  text-align: center;
+  font-size: 17px;
+  margin-top: 0;
+}
+
+.workSamples {
+  color: #9BB4CE;
+  font-family: 'Josefin Sans';
+}
+
+.artwork {
+  padding-left: 2%;
+  background: #000026;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.artwork h2 {
+  margin-top: 0%;
+  font-family: 'Bad Script';
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FAEBD7;
+  padding-top: 5%;
+}
+
+.aboutAsh {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/ashlaughing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  padding-left: 2%;
+}
+
+.aboutAsh h2 {
+  margin-top: 0%;
+  font-family: 'Bad Script';
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FAEBD7;
+  padding-top: 5%;
+}
+
+.aboutAsh p {
+  color: #9BB4CE;
+  font-family: 'Josefin Sans';
+}
+
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/mail.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  padding-left: 2%;
+}
+
+.contact h2 {
+  margin-top: 0;
+  padding-top: 5%;
+  font-family: 'Bad Script';
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FAEBD7;
+}
+
+.contact p {
+  color: #9BB4CE;
+  font-family: 'Josefin Sans';
 }
